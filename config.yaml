@@ -1,0 +1,93 @@
+# Eyegle v1.0 Configuration
+# Advanced Eye Tracking & Facial Expression Control
+# Created by Hivizstudios & Hitansh Parikh
+# This file stores user preferences and calibration data
+
+# Camera Settings
+camera:
+  device_id: 0  # Default webcam
+  width: 640
+  height: 480
+  fps: 30
+  auto_exposure: true
+  auto_brightness: true
+
+# Performance Settings
+performance:
+  target_fps: 60
+  max_latency_ms: 20
+  use_gpu: auto  # auto, true, false
+  thread_count: 3
+  frame_skip_threshold: 5  # Skip detection if falling behind
+
+# Gaze Tracking
+gaze:
+  smoothing_factor: 0.3  # EMA smoothing (0.0 - 1.0)
+  use_kalman: true
+  dead_zone_radius: 15  # pixels from center
+  acceleration_curve: 1.5  # Speed multiplier at edges
+  velocity_threshold: 50  # Min velocity for acceleration
+
+# Expression Detection
+expressions:
+  blink_threshold: 0.2  # EAR threshold for blink
+  blink_cooldown_ms: 200  # Minimum time between blinks
+  long_blink_ms: 500  # Duration for long blink
+  eyebrow_threshold: 0.03
+  smile_threshold: 0.05
+  jaw_threshold: 0.04
+  confidence_min: 0.7  # Minimum confidence for action
+
+# Action Mapping (customizable)
+actions:
+  blink_both_short: left_click
+  blink_both_long: right_click
+  blink_left: back
+  blink_right: forward
+  eyebrow_raise: scroll_up
+  eyebrow_lower: scroll_down
+  smile: enter
+  jaw_open: toggle_keyboard
+  head_tilt_left: volume_down
+  head_tilt_right: volume_up
+  head_nod: play_pause
+  head_shake: cancel
+
+# Safety Settings
+safety:
+  emergency_key: "esc"  # Keyboard override
+  auto_pause_no_face_ms: 2000
+  max_clicks_per_second: 3
+  require_confirmation: ["delete", "close"]
+  pause_on_focus_loss: true
+
+# Calibration
+calibration:
+  points: 9  # 9-point calibration
+  duration_per_point_ms: 2000
+  recalibration_reminder_hours: 24
+  auto_adjust_drift: true
+
+# UI Settings
+ui:
+  theme: dark  # dark, light
+  opacity: 0.95
+  show_overlay: true
+  overlay_color: "#00FF88"
+  overlay_size: 20
+  show_fps: true
+  show_debug: false
+  animations: true
+
+# Accessibility
+accessibility:
+  large_text: false
+  voice_feedback: false
+  high_contrast: false
+  color_blind_mode: false
+
+# User Profile
+user:
+  name: "Default"
+  eye_dominance: "right"  # left, right, both
+  calibration_data: null

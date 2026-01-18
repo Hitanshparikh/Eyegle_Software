@@ -1,0 +1,18 @@
+# Eyegle v1.0 - Minimal Core Dependencies
+# Advanced Eye Tracking by Hivizstudios & Hitansh Parikh
+# Install these first to get basic functionality working
+
+# Core Computer Vision (essential)
+opencv-python
+mediapipe
+numpy
+
+# Configuration 
+PyYAML
+
+# Mouse & Keyboard Control (essential)
+pyautogui
+pynput
+
+# Basic image processing
+pillow

@@ -1,0 +1,24 @@
+# Eyegle v1.0 - Production Dependencies
+# Advanced Eye Tracking by Hivizstudios & Hitansh Parikh
+# Python 3.11+ required
+
+# Core Computer Vision
+opencv-python>=4.8.0
+mediapipe>=0.10.30
+numpy>=1.26.0
+
+# Mouse & Keyboard Control
+pyautogui>=0.9.54
+pynput>=1.7.6
+
+# Premium UI (Qt6)
+PySide6>=6.6.0
+
+# Configuration & Data
+PyYAML>=6.0.0
+
+# Performance & Optimization
+scipy>=1.11.0  # For Kalman filtering
+
+# Utilities
+pillow>=10.0.0
