@@ -19,7 +19,8 @@
 [![Python](https://img.shields.io/badge/python-3.11+-A435F0?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-F24E1E?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
 [![Status](https://img.shields.io/badge/status-production-00D924?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
-[![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHitanshparikh%2FEyegle_Software&count_bg=%23FF6B35&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=repository+views&edge_flat=false&style=for-the-badge)](https://hits.seeyoufarm.com)
+![Profile Views](https://komarev.com/ghpvc/?username=hitanshparikh&style=for-the-badge&color=FF6B35&label=PROFILE+VIEWS)
+[![Repository Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHitanshparikh%2FEyegle_Software&count_bg=%23FF6B35&title_bg=%23555555&icon=eye.svg&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ---
 
